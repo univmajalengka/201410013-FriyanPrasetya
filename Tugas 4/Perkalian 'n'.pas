@@ -14,8 +14,7 @@ i :=0;
 write('Masukan Angka Perkalian : '); readln(n);
 while i<n do
 begin
-for i :=1 to 5 do
-writeln(n,' * ',i+0,' = ',(i+0)*n);
+writeln(n,' * ',i+1,' = ',(i+1)*n);
 i :=i+1
 end;
 
